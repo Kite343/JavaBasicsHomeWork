@@ -13,31 +13,57 @@ class Calk {
     double b;
     char action;
 
+    // Не работает, пробовала переносить в другие разделы, не помогает, не пойму как это реализовать
+    // public static double getNum(){
+    //     Scanner input = new Scanner(System.in);
+    //     System.out.println("Введите число ");
+    //     String text = input.next();
+    //     input.close();
+    //     try{
+    //         double num = Double.parseDouble(text);
+    //         return num;
+    //     }
+    //     catch(NumberFormatException e){
+    //         return getNum();
+    //     }
+    // }
+
     Calk() {
+        // Scanner input = new Scanner(System.in);
+        // System.out.println("Введите число ");
+        // a = input.nextDouble();
+        // System.out.println("Введите действие ");
+        // action = input.next().charAt(0);
+        // System.out.println("Введите число ");
+        // b = input.nextDouble();
+        // input.close();
+
+        // пока удалась только такая реализация
+        String text;
         Scanner input = new Scanner(System.in);
-        try {
+        while(true){
             System.out.println("Введите число ");
-            a = input.nextDouble();
-            System.out.println("Введите действие ");
-            action = input.next().charAt(0);
-            System.out.println("Введите число ");
-            b = input.nextDouble();
+            text = input.next();
+            try{
+                a = Double.parseDouble(text);
+                break;
+            }
+            catch(NumberFormatException e){System.out.println("Вы ввели не число");} // Здесь текст?
         }
-        catch (Exception e) {
-            System.out.println("Неверный ввод");
-            System.out.println(e.getMessage());
+        System.out.println("Введите действие ");
+        action = input.next().charAt(0);
+        System.out.println("Введите число ");
+        while(true){
+            text = input.next();
+            try{
+                b = Double.parseDouble(text);
+                break;
+            }
+            catch(NumberFormatException e){}
+            System.out.println("Вы ввели не число"); // или здесь текст?
         }
-        finally {
-            // найдено и утащено с простовров интернета:
-            // при закрытии потока тоже возможно исключение, например, если он не был открыт, поэтому “оборачиваем” код в блок try
-                try {
-                    input.close();;
-            // пишем обработку исключения при закрытии потока чтения
-                }
-                catch (Exception e) {
-                    System.out.println(e.getMessage());
-                }
-        }
+        input.close();
+        
     }
 
     void calkAction() {
@@ -52,9 +78,10 @@ class Calk {
                 // не удалось добавить try - catch, не срабатывает 
                 if (b == 0){System.out.println("На ноль делить нельзя");}
                 else {System.out.println(a / b);}
-            default: System.out.println("Выбранного действия не существует");
+            default: System.out.println("Выбранное действие невозможно, попробуйте заново");
                 break;
         }
         
     }
 }
+
