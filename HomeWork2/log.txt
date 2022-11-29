@@ -1,0 +1,8 @@
+﻿нояб. 28, 2022 8:14:05 PM Lesson_02.Ex005_Logger main
+WARNING: Тестовое логирование 1
+нояб. 28, 2022 8:14:05 PM Lesson_02.Ex005_Logger main
+INFO: Тестовое логирование 2
+нояб. 29, 2022 9:13:57 PM Main getFiles
+WARNING: Файлы не найдены в этой папке
+нояб. 29, 2022 9:13:57 PM Main writer
+WARNING: В предыдущем методе верунл null
