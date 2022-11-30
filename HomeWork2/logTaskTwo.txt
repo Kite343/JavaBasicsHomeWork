@@ -1,0 +1,88 @@
+нояб. 30, 2022 9:08:30 PM TaskTwo main
+INFO: Запуск программы
+нояб. 30, 2022 9:08:34 PM TaskTwo bubbleSort
+INFO: Итерация 1
+нояб. 30, 2022 9:08:34 PM TaskTwo bubbleSort
+INFO: Поменяли местами элементы 1 и 2
+нояб. 30, 2022 9:08:34 PM TaskTwo bubbleSort
+INFO: Поменяли местами элементы 3 и 4
+нояб. 30, 2022 9:08:34 PM TaskTwo bubbleSort
+INFO: Поменяли местами элементы 4 и 5
+нояб. 30, 2022 9:08:34 PM TaskTwo bubbleSort
+INFO: Поменяли местами элементы 5 и 6
+нояб. 30, 2022 9:08:34 PM TaskTwo bubbleSort
+INFO: Поменяли местами элементы 6 и 7
+нояб. 30, 2022 9:08:34 PM TaskTwo bubbleSort
+INFO: Поменяли местами элементы 7 и 8
+нояб. 30, 2022 9:08:34 PM TaskTwo bubbleSort
+INFO: Поменяли местами элементы 8 и 9
+нояб. 30, 2022 9:08:34 PM TaskTwo bubbleSort
+INFO: Конец итерации 1, всего изменений 7
+нояб. 30, 2022 9:08:34 PM TaskTwo bubbleSort
+INFO: Итерация 2
+нояб. 30, 2022 9:08:34 PM TaskTwo bubbleSort
+INFO: Поменяли местами элементы 0 и 1
+нояб. 30, 2022 9:08:34 PM TaskTwo bubbleSort
+INFO: Поменяли местами элементы 2 и 3
+нояб. 30, 2022 9:08:34 PM TaskTwo bubbleSort
+INFO: Поменяли местами элементы 3 и 4
+нояб. 30, 2022 9:08:34 PM TaskTwo bubbleSort
+INFO: Поменяли местами элементы 5 и 6
+нояб. 30, 2022 9:08:34 PM TaskTwo bubbleSort
+INFO: Поменяли местами элементы 6 и 7
+нояб. 30, 2022 9:08:34 PM TaskTwo bubbleSort
+INFO: Поменяли местами элементы 7 и 8
+нояб. 30, 2022 9:08:34 PM TaskTwo bubbleSort
+INFO: Конец итерации 2, всего изменений 6
+нояб. 30, 2022 9:08:34 PM TaskTwo bubbleSort
+INFO: Итерация 3
+нояб. 30, 2022 9:08:34 PM TaskTwo bubbleSort
+INFO: Поменяли местами элементы 1 и 2
+нояб. 30, 2022 9:08:34 PM TaskTwo bubbleSort
+INFO: Поменяли местами элементы 2 и 3
+нояб. 30, 2022 9:08:34 PM TaskTwo bubbleSort
+INFO: Поменяли местами элементы 4 и 5
+нояб. 30, 2022 9:08:34 PM TaskTwo bubbleSort
+INFO: Поменяли местами элементы 5 и 6
+нояб. 30, 2022 9:08:34 PM TaskTwo bubbleSort
+INFO: Поменяли местами элементы 6 и 7
+нояб. 30, 2022 9:08:34 PM TaskTwo bubbleSort
+INFO: Конец итерации 3, всего изменений 5
+нояб. 30, 2022 9:08:34 PM TaskTwo bubbleSort
+INFO: Итерация 4
+нояб. 30, 2022 9:08:34 PM TaskTwo bubbleSort
+INFO: Поменяли местами элементы 0 и 1
+нояб. 30, 2022 9:08:34 PM TaskTwo bubbleSort
+INFO: Поменяли местами элементы 3 и 4
+нояб. 30, 2022 9:08:34 PM TaskTwo bubbleSort
+INFO: Поменяли местами элементы 4 и 5
+нояб. 30, 2022 9:08:34 PM TaskTwo bubbleSort
+INFO: Поменяли местами элементы 5 и 6
+нояб. 30, 2022 9:08:34 PM TaskTwo bubbleSort
+INFO: Конец итерации 4, всего изменений 4
+нояб. 30, 2022 9:08:34 PM TaskTwo bubbleSort
+INFO: Итерация 5
+нояб. 30, 2022 9:08:34 PM TaskTwo bubbleSort
+INFO: Поменяли местами элементы 2 и 3
+нояб. 30, 2022 9:08:34 PM TaskTwo bubbleSort
+INFO: Конец итерации 5, всего изменений 1
+нояб. 30, 2022 9:08:34 PM TaskTwo bubbleSort
+INFO: Итерация 6
+нояб. 30, 2022 9:08:34 PM TaskTwo bubbleSort
+INFO: Конец итерации 6, всего изменений 0
+нояб. 30, 2022 9:08:34 PM TaskTwo bubbleSort
+INFO: Итерация 7
+нояб. 30, 2022 9:08:34 PM TaskTwo bubbleSort
+INFO: Конец итерации 7, всего изменений 0
+нояб. 30, 2022 9:08:34 PM TaskTwo bubbleSort
+INFO: Итерация 8
+нояб. 30, 2022 9:08:34 PM TaskTwo bubbleSort
+INFO: Конец итерации 8, всего изменений 0
+нояб. 30, 2022 9:08:34 PM TaskTwo bubbleSort
+INFO: Итерация 9
+нояб. 30, 2022 9:08:34 PM TaskTwo bubbleSort
+INFO: Конец итерации 9, всего изменений 0
+нояб. 30, 2022 9:08:34 PM TaskTwo bubbleSort
+INFO: Итерация 10
+нояб. 30, 2022 9:08:34 PM TaskTwo bubbleSort
+INFO: Конец итерации 10, всего изменений 0
