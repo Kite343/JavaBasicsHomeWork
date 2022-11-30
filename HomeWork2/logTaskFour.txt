@@ -1,0 +1,12 @@
+нояб. 30, 2022 11:44:46 PM TaskFour main
+INFO: Запуск программы
+нояб. 30, 2022 11:44:52 PM TaskFour main
+WARNING: Введено не верное значение
+нояб. 30, 2022 11:45:03 PM TaskFour main
+INFO: Введено верное значение
+нояб. 30, 2022 11:45:09 PM TaskFour main
+INFO: Введено верное значение
+нояб. 30, 2022 11:45:09 PM TaskFour calkAction
+INFO: Деление на ноль
+нояб. 30, 2022 11:45:09 PM TaskFour calkAction
+WARNING: Введено не верное действие
