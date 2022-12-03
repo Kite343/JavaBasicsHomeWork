@@ -4,8 +4,11 @@ public class Main {
         // TaskOne taskOne = new TaskOne();
         // taskOne.mergeSorting();
 
-        TaskTwo taskTwo = new TaskTwo();
-        taskTwo.delEvenNums();
+        // TaskTwo taskTwo = new TaskTwo();
+        // taskTwo.delEvenNums();
+
+        TaskThree taskthree = new TaskThree();
+        taskthree.taskThree();
 
     }
     
