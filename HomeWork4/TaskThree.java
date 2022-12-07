@@ -1,61 +1,97 @@
 import java.util.Scanner;
+import java.util.Stack;
 
 public class TaskThree {
-    public static void main(String[] args) {      
+
+    Stack<Double> result = new Stack<>();
+    
+    public void taskTree(){      
 
         Scanner in = new Scanner(System.in);
 
         double a;
         double b;
         char action;
-        String text;
+        String text = "start";
 
-        while(true){
-            System.out.println("Введите число ");
-            text = in.next();
-            try{
-                a = Double.parseDouble(text);
-                break;
+        do{ 
+            if(text.equals("del")){
+                if(!result.empty()){
+                    result.pop();
+                    System.out.println("Последняя операция удалена");
+                    System.out.println();
+                }
+                else {
+                    System.out.println("Предыдущие операции отсутствуют");
+                    System.out.println();
+                }
             }
-            catch(NumberFormatException e){
-                System.out.println("Вы ввели не число");
-            }
-        }
 
-        System.out.println("Введите действие ");
-        action = in.next().charAt(0);
-        
-        while(true){
-            System.out.println("Введите число ");
+            else{
+                if(!result.empty()){a = result.peek();}
+                else{
+                    while(true){
+                        System.out.println("Введите число ");
+                        text = in.next();
+                        try{
+                            a = Double.parseDouble(text);
+                            break;
+                        }
+                        catch(NumberFormatException e){
+                            System.out.println("Вы ввели не число");
+                        }
+                    }
+                }
+
+                System.out.println("Введите действие ");
+                action = in.next().charAt(0);
+
+                while(true){
+                    System.out.println("Введите число ");
+                    text = in.next();
+                    try{
+                        b = Double.parseDouble(text);
+                        break;
+                    }
+                    catch(NumberFormatException e){
+                        System.out.println("Вы ввели не число");
+                    }
+
+                }
+
+                calkAction(a, b, action);
+                System.out.println("Результат "  + result.peek());
+                System.out.println();
+            }
+
+            System.out.println("Введите Q для окончания работы программы,\ndel - для удаления последней операции\nЛюбой символ для продолжения");
             text = in.next();
-            try{
-                b = Double.parseDouble(text);
-                break;
-            }
-            catch(NumberFormatException e){
-                System.out.println("Вы ввели не число");
-            }
+            System.out.println();            
             
-        }
+        } while(!text.equals("Q"));        
 
-        in.close(); 
-
-        calkAction(a, b, action);
+        in.close();         
     }
 
-    static void calkAction(double a, double b, char action) {
+    void calkAction(double a, double b, char action) {
+        
         switch(action) {
-            case '+': System.out.println(a + b);
+            case '+': 
+                result.push(a + b);
                 break;
-            case '-': System.out.println(a - b);
+            case '-': 
+                result.push(a - b);
                 break;
-            case '*': System.out.println(a * b);
+            case '*': 
+                result.push(a * b);
                 break;
             case '/': 
                 if (b == 0){
                     System.out.println("На ноль делить нельзя");
+                    break;
                 }
-                else {System.out.println(a / b);}
+                else {
+                    result.push(a / b);}
             default: System.out.println("Выбранное действие невозможно, попробуйте заново");
                 break;
         }

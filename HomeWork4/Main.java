@@ -3,8 +3,11 @@ public class Main {
         // TaskOne taskOne = new TaskOne();
         // taskOne.taskOne();
 
-        TaskTwo taskTwo = new TaskTwo();
-        taskTwo.taskTwo();
+        // TaskTwo taskTwo = new TaskTwo();
+        // taskTwo.taskTwo();
+
+        TaskThree taskThree = new TaskThree();
+        taskThree.taskTree();
 
                 
     }
