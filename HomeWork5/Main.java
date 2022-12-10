@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 // import java.util.HashMap;
 
 public class Main {
@@ -15,8 +17,13 @@ public class Main {
         // System.out.println();
 
 
-        TaskTwo taskTwo = new TaskTwo();
-        taskTwo.taskTwo();
+        // TaskTwo taskTwo = new TaskTwo();
+        // taskTwo.taskTwo();
 
+        // До 3999
+        TaskThree taskThree = new TaskThree();
+        // System.out.println(taskThree.romanNumber(308));
+        Scanner in = new Scanner(System.in);
+        System.out.println(taskThree.romanNumber(in.nextInt()));
     }
 }
